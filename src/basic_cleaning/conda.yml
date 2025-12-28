@@ -1,11 +1,11 @@
 name: basic_cleaning
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
-  - python=3.13.0
-  - pip=24.3.1
-  - pandas=2.3.2
+  - python=3.10
+  - pandas
+  - scikit-learn
+  - pip
   - pip:
-      - wandb==0.22.0
-
+      - wandb
