@@ -40,7 +40,7 @@ def go(args):
     # log the new data.
     artifact = wandb.Artifact(
      args.output_artifact,
-     type="cleaned_data",
+     type=args.output_type,
      description=args.output_description,
  )
     artifact.add_file("clean_sample.csv")
